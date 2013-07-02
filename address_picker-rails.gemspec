@@ -78,7 +78,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rails>, ["~> 3.2.0"])
+      s.add_runtime_dependency(%q<rails>, [">= 3.2.0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.3.0"])
       s.add_development_dependency(%q<capybara>, ["~> 2.0.0"])
       s.add_development_dependency(%q<guard>, ["~> 1.6.0"])
