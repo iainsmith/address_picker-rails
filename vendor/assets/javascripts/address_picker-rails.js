@@ -1,6 +1,6 @@
 //= require jquery
 //= require jquery_ujs
-//= require jquery-ui
+//= require jquery-ui.all
 //= require address_picker
 //= require address_picker_gmaps
 
